@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="">
+    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="add Hello world">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_1_SOUT/L_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1_SOUT/L_1.java" afterDir="false" />
     </list>
@@ -22,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Tn6K8iCtapKDB37GO18F6ysV7a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,6 +68,18 @@
       <option name="presentableId" value="Default" />
       <updated>1691666431409</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Hello world">
+      <created>1691742720677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691742720677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Hello world" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Hello world" />
   </component>
 </project>
