@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="add Hello world">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_1_SOUT/L_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1_SOUT/L_1.java" afterDir="false" />
+    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Add HomeWork 1">
+      <change afterPath="$PROJECT_DIR$/src/Lesson_2_variables/HW_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HW_1">
+    <configuration name="HW_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2_variables.HW_1" />
+      <module name="QA_HomeWork_RedRover_07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_2_variables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="L_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_1_SOUT.L_1" />
       <module name="QA_HomeWork_RedRover_07" />
@@ -55,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW_1" />
         <item itemvalue="Application.L_1" />
       </list>
     </recent_temporary>
@@ -75,11 +88,19 @@
       <option name="project" value="LOCAL" />
       <updated>1691742720677</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add HomeWork 1">
+      <created>1691743536313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691743536313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Hello world" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Hello world" />
+    <MESSAGE value="Add HomeWork 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HomeWork 1" />
   </component>
 </project>
