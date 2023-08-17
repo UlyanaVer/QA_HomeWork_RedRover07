@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Исправлена HW_2">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_3/HW_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_3/HW_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_3/HW_3.java" afterDir="false" />
+    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="fixes in the code&#10;Lesson 3 &#10;HW_1,2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_3/HW_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_3/HW_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_3/HW_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_3/HW_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson_3.HW_3">
+  <component name="RunManager" selected="Application.Lesson_3.HW_2">
     <configuration name="HW_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_2_variables.HW_2" />
       <module name="QA_HomeWork_RedRover_07" />
@@ -109,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson_3.HW_3" />
         <item itemvalue="Application.Lesson_3.HW_2" />
         <item itemvalue="Application.Lesson_3.HW_1" />
+        <item itemvalue="Application.Lesson_3.HW_3" />
         <item itemvalue="Application.HW_2" />
         <item itemvalue="Application.HW_3" />
       </list>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692254611034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson 3 &#10;HW_1,2,3">
+      <created>1692261035589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692261035589</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +184,8 @@
     <MESSAGE value="Add lesson 2 HomeWork 2" />
     <MESSAGE value="Add lesson 2 HomeWork 3" />
     <MESSAGE value="Исправлена HW_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлена HW_2" />
+    <MESSAGE value="Lesson 3 &#10;HW_1,2,3" />
+    <MESSAGE value="fixes in the code&#10;Lesson 3 &#10;HW_1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes in the code&#10;Lesson 3 &#10;HW_1,2" />
   </component>
 </project>

@@ -12,12 +12,14 @@ public class HW_1 {
         int b = 23;
         if (a == b) {
             System.out.println("a == b");
-        }
+        }else{
         if (a < b) {
             System.out.println("a < b");
+        }else {
+            if (a > b) {
+                System.out.println("a > b");
+            }
         }
-        if (a > b) {
-            System.out.println("a > b");
         }
     }
 }

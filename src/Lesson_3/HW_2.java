@@ -9,17 +9,16 @@ public class HW_2 {
         //результат деления на 2 больше 20 - если это соответствует истине
         //значение переменной между 5 и 40 включительно - если это правда
         //значение переменной меньше 5 или больше 40 - если предыдущие условие ложное
-        int variable = 999;
+        int variable = 41;
 
         if (variable > 10){
             System.out.println("variable > 10= " + variable);
-        } else {
-            if (variable < 100){
-                System.out.println("variable < 100= " + variable);
-            }
         }
-        if ((variable / 2) > 20){
-            System.out.println("variable/2 = " + (variable / 2));
+        if (variable < 100){
+                System.out.println("variable < 100= " + variable);
+        }
+        if ((variable / 2.0) > 20){
+            System.out.println("variable/2 > 20 = " + (variable / 2.0));
         } else {
             if (5 <= variable && variable <= 40){
                 System.out.println("5 <= variable <= 40= " + variable);
