@@ -11,21 +11,23 @@ public class HW_2 {
     //Попробовать придумать как программа может проверить правильность дележа.
     public static void main(String[] args) {
 
-       int dobicha = 40;
-       int komanda = 4;
-       double piastriVladelec = dobicha / 2;
-       double piastriKapitan = piastriVladelec / 2;
-       double piastriKomanda = piastriKapitan / (komanda + 1);
+       int loot = 49;
+       int crew = 4;
+       int owner = loot / 2;
+       int kapitan = (loot - owner) / 2;
+       int eachCrew = (loot - owner - kapitan) / (crew + 1);
+        kapitan = kapitan + eachCrew;
 
-       if(dobicha == (piastriVladelec + piastriKapitan + piastriKomanda + piastriKomanda * komanda)){
-           System.out.println("Добыча поделена верно");
+        System.out.println("Владелец получит " + owner + " пиастров");
+        System.out.println("Капитан получит " + kapitan + " пиастров");
+        System.out.println("Команда получит " + eachCrew * crew + " пиастров");
+
+        if(loot == (owner + kapitan + eachCrew * crew)){
+            System.out.println("Добыча поделена верно");
         }else {
-           System.out.println("Кто-то присвоил себе не свои пиастры!");
-       }
-
-        System.out.println("Владелец получит " + piastriVladelec + " пиастров");
-        System.out.println("Капитан получит " + (piastriKapitan + piastriKomanda) + " пиастров");
-        System.out.println("Команда получит " + piastriKomanda * komanda + " пиастров");
+            System.out.println("Кто-то присвоил себе не свои пиастры! В количестве = " +
+                    (loot - (owner + kapitan + eachCrew * crew)));
+        }
 
     }
 }
