@@ -1,7 +1,5 @@
 package Lesson_4;
 
-import java.util.Arrays;
-
 public class HW_8_9 {
     public static void main(String[] args) {
         //Задача №8
@@ -12,44 +10,34 @@ public class HW_8_9 {
         //проверить, отсортирован ли он, т.е. все ли числа в массиве стоят так,
         //что каждое следующее число больше предыдущего.
         //    public static boolean isSorted(int[] a)
-        //    {
-        //        // базовый вариант
-        //        if (a == null || a.length <= 1) {
-        //            return true;
-        //        }
-        //
-        //        for (int i = 0; i < a.length - 1; i++)
-        //        {
-        //            if (a[i] > a[i + 1]) {
-        //                return false;
-        //            }
-        //        }
-        //
-        //        return true;
-        //    }
-        int count = 0;
+
+        int positivCount = 0;
         int negativCount = 0;
-        int[] array = new int[]{1,2,4,6,8,9,-2,-5,-10,100,99,54,-103,0};
+        int[] array = new int[]{1, 2, 4, 6, 8, 9, -2, -5, -10, 100, 99, 54, -103, 0};
         for (int i = 0; i < array.length; i++) {
             int elem = array[i];
-            if(elem >= 0){
-                count ++;
-            } else {
-                negativCount ++;
+            if (elem > 0) {
+                positivCount++;
+            } else if (elem < 0) {
+                negativCount++;
             }
+        }
+        boolean isSorted = true;
+        for (int j = 0; j < array.length - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                isSorted = false;
+                break;
+            }
+        }
+        if (isSorted) {
+            System.out.println("Массив отсортирован");
+        } else {
+            System.out.println("Массив не отсортирован");
         }
 
-        for (int j = 0,k = 1; j < array.length && k < (array.length - 1); j++, k++) {
-            if (array[j] > array[k]){
-                System.out.println("Массив не отсортирован");
-                break;
-            } else {
-                System.out.print(array[j] + " ");
-            }
-        }
         System.out.println();
         System.out.print("Количество положительных чисел = ");
-        System.out.println(count);
+        System.out.println(positivCount);
 
         System.out.print("Количество отрицательных чисел = ");
         System.out.println(negativCount);

@@ -21,12 +21,11 @@ public class HW_4_7 {
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
             int elem = array[i];
-
                 if (elem > max){
                 max = elem;
-                if (elem < min){
-                min = elem;
                 }
+            if (elem < min){
+                min = elem;
             }
         }
         System.out.print("MAX = ");
@@ -37,5 +36,8 @@ public class HW_4_7 {
 
         System.out.print("Среднее арифметичесое = ");
         System.out.println((double)sum / array.length  );
+
+        System.out.println();
+        System.out.println(sum);
     }
 }
