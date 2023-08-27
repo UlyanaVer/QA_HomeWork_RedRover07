@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="&#10;Lesson 4&#10;HW_1-10">
+    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Lesson 4&#10;add fix">
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5/HW_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5/HW_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_5/HW_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HW_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HW_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HW_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/HW_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_4/HW_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/HW_4_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_4/HW_4_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4/HW_8_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_4/HW_8_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_5/HW_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_5/HW_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Tn6K8iCtapKDB37GO18F6ysV7a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +48,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HW_10">
+  <component name="RunManager" selected="Application.HW_4">
+    <configuration name="HW_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_1" />
+      <module name="QA_HomeWork_RedRover_07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HW_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_4.HW_10" />
       <module name="QA_HomeWork_RedRover_07" />
@@ -56,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="HW_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.HW_2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_2" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="HW_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.HW_3" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_3" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,25 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW_4_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.HW_4_7" />
+    <configuration name="HW_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_4" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW_8_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.HW_8_9" />
-      <module name="QA_HomeWork_RedRover_07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HW_10" />
-        <item itemvalue="Application.HW_8_9" />
-        <item itemvalue="Application.HW_4_7" />
+        <item itemvalue="Application.HW_4" />
         <item itemvalue="Application.HW_3" />
         <item itemvalue="Application.HW_2" />
+        <item itemvalue="Application.HW_1" />
+        <item itemvalue="Application.HW_10" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692525869320</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lesson 4&#10;add fix">
+      <created>1693054437142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693054437142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +216,7 @@
     <MESSAGE value="Lesson 3 &#10;HW_1,2,3" />
     <MESSAGE value="fixes in the code&#10;Lesson 3 &#10;HW_1,2" />
     <MESSAGE value="&#10;Lesson 4&#10;HW_1-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Lesson 4&#10;HW_1-10" />
+    <MESSAGE value="Lesson 4&#10;add fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4&#10;add fix" />
   </component>
 </project>
