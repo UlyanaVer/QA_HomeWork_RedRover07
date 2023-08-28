@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Lesson 4&#10;add fix">
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_5/HW_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_5/HW_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_5/HW_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HW_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HW_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_6/HW_3.java" afterDir="false" />
+    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Lesson 5 add HW 1 -4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_5/HW_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_5/HW_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeWars/Task_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HW_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HW_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HW_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HW_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/HW_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/HW_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +41,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HW_4">
-    <configuration name="HW_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_1" />
+  <component name="RunManager" selected="Application.Task2">
+    <configuration name="Lesson_6.HW_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.HW_1" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.HW_10" />
+    <configuration name="Lesson_6.HW_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.HW_2" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_2" />
+    <configuration name="Lesson_6.HW_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.HW_3" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="PATTERN" value="Lesson_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_3" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.Task2" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="PATTERN" value="CodeWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW_4" />
+    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.Task_1" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_5.*" />
+          <option name="PATTERN" value="CodeWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HW_4" />
-        <item itemvalue="Application.HW_3" />
-        <item itemvalue="Application.HW_2" />
-        <item itemvalue="Application.HW_1" />
-        <item itemvalue="Application.HW_10" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task_1" />
+        <item itemvalue="Application.Lesson_6.HW_3" />
+        <item itemvalue="Application.Lesson_6.HW_2" />
+        <item itemvalue="Application.Lesson_6.HW_1" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693054437142</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lesson 5 add HW 1 -4">
+      <created>1693155864994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693155864994</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,6 +220,7 @@
     <MESSAGE value="fixes in the code&#10;Lesson 3 &#10;HW_1,2" />
     <MESSAGE value="&#10;Lesson 4&#10;HW_1-10" />
     <MESSAGE value="Lesson 4&#10;add fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4&#10;add fix" />
+    <MESSAGE value="Lesson 5 add HW 1 -4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5 add HW 1 -4" />
   </component>
 </project>
