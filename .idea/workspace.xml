@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Lesson 6 add HW 1 -3">
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/HighestAndLowest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/Main.java" afterDir="false" />
+    <list default="true" id="219408f9-d8a1-4ebf-9c5c-e80a10414e8b" name="Changes" comment="Group Task CodeWars &#10;Sprint 2">
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7/HW_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson_7/Salary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HighestAndLowest">
-    <configuration name="HighestAndLowest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWars.HighestAndLowest" />
+  <component name="RunManager" selected="Application.HW_1">
+    <configuration name="HW_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_7.HW_1" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeWars.*" />
+          <option name="PATTERN" value="Lesson_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_6.HW_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_6.HW_3" />
+    <configuration name="HighestAndLowest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.HighestAndLowest" />
       <module name="QA_HomeWork_RedRover_07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_6.*" />
+          <option name="PATTERN" value="CodeWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW_1" />
         <item itemvalue="Application.HighestAndLowest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task_1" />
-        <item itemvalue="Application.Lesson_6.HW_3" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693251053171</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Group Task CodeWars &#10;Sprint 2">
+      <created>1693909559119</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693909559119</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +236,7 @@
     <MESSAGE value="Lesson 4&#10;add fix" />
     <MESSAGE value="Lesson 5 add HW 1 -4" />
     <MESSAGE value="Lesson 6 add HW 1 -3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6 add HW 1 -3" />
+    <MESSAGE value="Group Task CodeWars &#10;Sprint 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Group Task CodeWars &#10;Sprint 2" />
   </component>
 </project>
