@@ -5,12 +5,8 @@ public class Director extends Manager {
         return 9;
     }
 
-//    @Override
-//    public int getSalary() {
-//        if (numberOfSubordinates != 0) {
-//            return (getBaseSalary() + (getBaseSalary() * numberOfSubordinates * getPercent()/ 100));
-//        } else {
-//            return getBaseSalary();
-//        }
-//    }
+    @Override
+    public double getSalary() {
+            return (getBaseSalary() + (getBaseSalary() * numberOfSubordinates * getPercent() / 100));
+    }
 }

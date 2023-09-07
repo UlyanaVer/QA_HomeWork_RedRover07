@@ -42,7 +42,7 @@ public class HW_1 {
 
 //Задача №1
         Worker worker1 = new Worker();
-        worker1.setBaseSalary(200);
+        worker1.setBaseSalary(100);
         worker1.setName("Лариса");
         System.out.println("Worker 1 = " + worker1.getSalary());
 
@@ -60,12 +60,12 @@ public class HW_1 {
 //Задача №2
         Worker worker2 = new Worker();
         worker2.setName("Володя");
-        worker2.setBaseSalary(1);
+        worker2.setBaseSalary(150);
         System.out.println("Базовая ставка рабочего: " + worker2.getSalary());
 
         Manager manager2 = new Manager();
         manager2.setName("Хаврошка");
-        manager2.setBaseSalary(50);
+        manager2.setBaseSalary(500);
         manager2.setNumberOfSubordinates(1000);
         System.out.println("Manager 2=" + manager2.getSalary());
 
@@ -74,20 +74,20 @@ public class HW_1 {
 
         Director director = new Director();
         director.setName("Зайцев Вадим Игоревич");
-        director.setBaseSalary(500);
-        director.setNumberOfSubordinates(50000);
+        director.setBaseSalary(5000);
+        director.setNumberOfSubordinates(1000);
         System.out.println("Director = " + director.getSalary());
 
-        Director director2 = new Director();
-        director.setName("Владимир Иванович");
-        director.setBaseSalary(500);
-        director.setNumberOfSubordinates(50000);
-        System.out.println("Director1 = " + director2.getSalary());
+        Director director1 = new Director();
+        director1.setName("VAdik");
+        director1.setBaseSalary(5000);
+        director1.setNumberOfSubordinates(1000);
+        System.out.println("Director1 = " + director1.getSalary());
 
         Director director3 = new Director();
-        director.setName("Зайцев Вадим Игоревич333");
-        director.setBaseSalary(500);
-        director.setNumberOfSubordinates(5);
+        director3.setName("Зайцев Вадим Игоревич333");
+        director3.setBaseSalary(500);
+        director3.setNumberOfSubordinates(5);
         System.out.println("Director3 = " + director3.getSalary());
 
 //        System.out.println("Директор " + director.name +  " Зарплата = " + director.getSalary() + " Количество подчиненных = "
@@ -96,7 +96,7 @@ public class HW_1 {
 //                + director1.numberOfSubordinates + " Ставка = " + director1.baseSalary);
 
 //Задача №3
-        Employee[] employeesMas = new Employee[]{worker1, manager1, director, director2, worker2};
+        Employee[] employeesMas = new Employee[]{worker1, manager1,manager2, director, director1, director3, worker2};
 
         Employee emp = EmployeeUtils.findByName(employeesMas, "Лариса");
         System.out.println("Task_3_1: " + emp.getName());
@@ -105,11 +105,15 @@ public class HW_1 {
         System.out.println("Task_3_2: " + emp1.getName());
 
         EmployeeUtils TotalSalary = new EmployeeUtils();
-        System.out.println(TotalSalary.getTotalSalary(employeesMas));
+        System.out.println("TotalSalary = : " + TotalSalary.getTotalSalary(employeesMas));
 
+        System.out.println("MaxSalary: = " + EmployeeUtils.getMaxSalary(employeesMas));
+        System.out.println("MinSalary: = " + EmployeeUtils.getMinSalary(employeesMas));
 
+        Manager[] ManagerMas = new Manager[]{manager1,manager2, director, director1, director3};
 
+        System.out.println("MaxBonus: = " + EmployeeUtils.getMaxBonus(ManagerMas));
+        System.out.println("MaxNumSubordinates: = " + EmployeeUtils.getMaxNumSubordinates(ManagerMas));
+        System.out.println("MinNumSubordinates: = " + EmployeeUtils.getMinNumSubordinates(ManagerMas));
     }
-
-
 }

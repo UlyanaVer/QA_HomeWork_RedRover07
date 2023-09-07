@@ -17,7 +17,7 @@ public class Manager extends Employee{
     }
 
     @Override
-    public int getSalary(){
+    public double getSalary(){
         return getBaseSalary() + (getBaseSalary() * numberOfSubordinates * getPercent() / 100);
     }
 }

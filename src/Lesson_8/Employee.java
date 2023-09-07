@@ -1,7 +1,7 @@
 package Lesson_8;
 
 public abstract class Employee {
-    int baseSalary;
+    double baseSalary;
     String name;
 
 
@@ -11,12 +11,12 @@ public abstract class Employee {
     public String getName() {
         return name;
     }
-    public void setBaseSalary(int baseSalary) {
+    public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }
-    public int getBaseSalary(){
+    public double getBaseSalary(){
         return baseSalary;
     }
-    public abstract int getSalary();
+    public abstract double getSalary();
 }
 

@@ -33,10 +33,10 @@ public class EmployeeUtils {
         return sum;
     }
     //поиск наименьшей зарплаты в массиве
-    public double getMaxSalary(Employee[] employees){
-        int max = Integer.MIN_VALUE;
+    public static double getMaxSalary(Employee[] employees){
+        double max = Integer.MIN_VALUE;
         for (int i = 0; i < employees.length; i++) {
-            int elem = employees[i].getSalary();
+            double elem = employees[i].getSalary();
             if(elem > max){
                 max = elem;
             }
@@ -44,7 +44,7 @@ public class EmployeeUtils {
         return max;
     }
     //поиск наибольшей зарплаты в массиве
-    public double getMinSalary(Employee[] employees){
+    public static double getMinSalary(Employee[] employees){
         double min = Integer.MAX_VALUE;
         for (int i = 0; i < employees.length; i++) {
             double elem = employees[i].getSalary();
@@ -55,7 +55,7 @@ public class EmployeeUtils {
         return min;
     }
     //поиск наименьшего количества подчиненных в массиве менеджеров
-    public int getMinNumSubordinates(Manager[] managers){
+    public static int getMinNumSubordinates(Manager[] managers){
         int min = Integer.MAX_VALUE;
         for (int i = 0; i < managers.length; i++) {
             int elem = managers[i].getNumberOfSubordinates();
@@ -66,7 +66,7 @@ public class EmployeeUtils {
         return min;
     }
     //поиск наибольшего количества подчиненных в массиве менеджеров
-    public int getMaxNumSubordinates(Manager[] managers){
+    public static int getMaxNumSubordinates(Manager[] managers){
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < managers.length; i++) {
             int elem = managers[i].getNumberOfSubordinates();
@@ -77,7 +77,7 @@ public class EmployeeUtils {
         return max;
     }
     //поиск наибольшей надбавки (разнице между базовой ставкой и зарплатой) в массиве менеджеров
-    public double getMaxBonus(Manager[] managers){
+    public static double getMaxBonus(Manager[] managers){
         double max = 0;
         for (int i = 0; i < managers.length; i++) {
             Manager m = managers[i];
@@ -89,7 +89,7 @@ public class EmployeeUtils {
         return max;
     }
     //поиск наименьшей надбавки (разнице между базовой ставкой и зарплатой) в массиве менеджеров
-    public double getMinBonus(Manager[] managers){
+    public static double getMinBonus(Manager[] managers){
         double min = Integer.MAX_VALUE;
         for (int i = 0; i < managers.length; i++) {
             Manager m = managers[i];
