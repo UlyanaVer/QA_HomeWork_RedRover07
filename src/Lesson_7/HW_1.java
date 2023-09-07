@@ -1,5 +1,7 @@
 package Lesson_7;
 
+import Lesson_8.EmployeeUtils;
+
 public class HW_1 {
     //Задача №1
     //
@@ -55,5 +57,6 @@ public class HW_1 {
 //Задача №3
         Employee[] employees = new Employee[]{managerLarisa, managerVasya, managerVasya1};
         System.out.println(Salary.getSum(employees));
+
     }
 }
